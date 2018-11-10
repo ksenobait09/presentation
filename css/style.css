@@ -1,0 +1,37 @@
+#photos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.photo_wrapper {
+
+}
+
+.photo_wrapper figcaption {
+    font-size: .60em;
+    margin: 0;
+    text-align: center;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+figure {
+    margin: 1em 0 1em 0;
+}
+.italic {
+    font-style: italic !important;
+}
+.big_picture {
+    border: 1px solid #222 !important;
+}
+
+#gopher {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
